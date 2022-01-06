@@ -34,9 +34,9 @@ public class Main {
 
         //Задание №3
 
-        int year = 2008;
-        int ostat = year % 4;
-        if (year % 4 == 0 && year % 100 != 0) {
+        int year = 1800;
+
+        if (year % 4 == 0  && year % 100 != 0|| year % 400 == 0) {
             System.out.println("год является високосным " + year);
 
         }else {
@@ -81,6 +81,7 @@ public class Main {
                 default:
                     System.out.println("Такого месяца нет");
             }
+
 
 
         }
